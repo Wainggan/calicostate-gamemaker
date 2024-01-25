@@ -15,10 +15,10 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.11.0.121",
   },
   "resources": [
-    {"id":{"name":"scr_state","path":"scripts/scr_state/scr_state.yy",},},
+    {"id":{"name":"scr_calicostate","path":"scripts/scr_calicostate/scr_calicostate.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "RoomOrderNodes": [
