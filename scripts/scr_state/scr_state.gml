@@ -87,8 +87,8 @@ function State() constructor {
 		
 		__depth--;
 		
-		if __current[__depth].__data[$ _name] != undefined
-			__current[__depth].run(_name);
+		if __stack[__depth].__data[$ _name] != undefined
+			__stack[__depth].run(_name);
 		else
 			child(); // move to next child until match found
 		
@@ -120,12 +120,12 @@ function State() constructor {
 	}
 	
 	static __push = function(_child){
-		array_push(__current, _child);
+		array_push(__stack, _child);
 		__depth++;
 	}
 	
 	static __pop = function(){
-		array_pop(__current);
+		array_pop(__stack);
 		__depth--;
 	}
 	
